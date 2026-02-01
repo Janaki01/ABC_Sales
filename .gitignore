@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+ 
+# Lambda build artifacts
+ lambda/lambda_build/
+ lambda/etl_lambda.zip
+ 
+ 
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+ 
+# OS
+.DS_Store
+Thumbs.db
